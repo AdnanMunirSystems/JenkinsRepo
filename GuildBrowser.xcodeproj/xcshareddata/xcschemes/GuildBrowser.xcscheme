@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CB9FDC5B15E9872E00B3713E"
-               BuildableName = "GuildBrowserTests.octest"
+               BuildableName = "GuildBrowserTests.xctest"
                BlueprintName = "GuildBrowserTests"
                ReferencedContainer = "container:GuildBrowser.xcodeproj">
             </BuildableReference>
