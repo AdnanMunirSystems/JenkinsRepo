@@ -27,6 +27,6 @@
 
 - (void)testFullName {
     Validations *validation = [[Validations alloc] init];
-    XCTAssertEqualObjects([validation validateName], @"Pablo Picasso");
+    XCTAssertEqualObjects([validation validateName], @"Pabl Picasso");
 }
 @end
