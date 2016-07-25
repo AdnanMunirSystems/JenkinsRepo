@@ -6,7 +6,11 @@
 {
     // Override point for customization after application launch.
     [self customizeAppearance];
+    NSURL *dataServiceURL = [[NSBundle bundleForClass:self.class]
+                             URLForResource:@"character" withExtension:@"json"];
     
+    // 4
+    NSData *sampleData = [NSData dataWithContentsOfURL:dataServiceURL];
     return YES;
 }
 							
